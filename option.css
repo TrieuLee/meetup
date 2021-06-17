@@ -1,0 +1,24 @@
+.option-box{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    height: auto;
+    margin-bottom: 25px;
+}
+.option-box .option {
+    margin-right: 20px;
+}
+.option-box .option .img-option{
+    background-image: url(https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    border-radius: 10px;
+}
+.option-box .option .img-option::before{
+    content: "";
+    display: block;
+}
+.option-box .option .text-option{
+    font-size: 18px;
+    
+}

@@ -1,0 +1,45 @@
+.location-box{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: auto;
+}
+.location-box .box{
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px grey;  
+    transition: all 0.5s;
+    margin-left: 15px;
+}
+.location-box .box:hover{
+    box-shadow:1px 1px 15px grey; 
+    transform: translate(0,-5px);
+}
+.location-box .box .img-box{
+    background-image: url(https://secure.meetupstatic.com/photos/event/5/b/e/c/600_483563532.jpeg);
+    background-size: cover;
+    height: 140px;
+}
+.location-box .box .img-box:before{
+    content: " ";
+    display: block;
+}
+.location-box .box .text-box{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+.location-box .box .text-box .text1{
+color: #585858;
+font-size: 20px;
+font-weight: 500;
+padding-bottom: 15px;
+}
+.location-box .box .text-box .text2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 33px;
+}
+.location-box .box .text-box .text3{
+    font-size: 15px;
+    color: #757575;
+}
